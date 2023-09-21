@@ -1,0 +1,184 @@
+body {
+    position: relative;
+    height: 100%;
+    width: 100%; margin: 0px; 
+    background-color: #fdf3ec ;
+}
+/* Style the header */
+.header {
+    width: 100%;
+    background-color: #C61414;
+    padding: 0.5px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times,
+  }
+  .header e {
+    background-color: #C61414;
+    padding: 0px;
+    text-align: center;
+  font-size: 1px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    font-family: 'Times New Roman', Times,
+  }
+  
+  /* Style the topnav links */
+  .topnav d {
+    float: left;
+    color: #D62C2C;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 54px;
+  font: times new roman;
+  font-weight: bold;
+  }
+  li{display: inline-flexbox;}
+  li a{
+    float: right;
+    color: #D62C2C;
+    text-align: center;
+    padding: 8px 2%;
+    text-decoration: none;
+    font-size: px;
+    font: times new roman;
+    font-weight: bold;
+}
+li b{
+    float: right;
+    text-align: center;
+    padding: 5px 5px;
+}
+li c{
+    float: right;
+    text-align: center;
+    padding: 1px 5px;
+}
+
+
+ul{list-style-type: none;
+padding-right: 5px;}
+
+  /* Change color on hover */
+  li a:hover {
+    color: #B20101;
+      font-weight: bold;
+      font-size: 18px;
+    text-decoration: underline;
+  }
+
+
+.container{
+    position: relative;
+	height: auto;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto; /*i write auto four time because we want four rows*/
+	grid-gap: 2.5vh;
+	grid-auto-flow: dense;
+}
+
+.page_title{
+    position: relative;
+	height: auto;
+	width: auto;
+	left: 50%;
+	transform: translateX(-50%);
+	margin:3% 0 0% 0;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 650;
+    line-height: 30px;
+	letter-spacing: 1.5px;
+	color:black;
+}
+
+.container .box{
+    position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 2px;
+}
+.container .box img{
+    height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 3px;
+	transition: 0.3s ease-in-out;
+}
+  .container .box img:hover{
+    width: 90%;
+    height: auto;
+    filter: none;
+  }
+
+.container .box img:first-child{
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.container .box img:nth-child(2n+3){
+	grid-row-start: span 2;
+}
+
+
+
+
+
+
+@media (max-width:1200px)
+{
+    .container{
+        display: grid;
+		grid-template-columns: auto auto auto auto auto;
+        border-radius: 2px; grid-gap: 2vh;
+    }
+}
+
+@media (max-width:1000px)
+{
+    .container{
+        display: grid;
+		grid-template-columns: auto auto auto auto;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width:800px)
+{
+    .container{
+        display: grid;
+		grid-template-columns: auto auto auto;
+        border-radius: 2px;  box-sizing: border-box; margin-right: 5px; margin-left: -5px;
+    }
+}
+
+@media (max-width:640px)
+{
+    .container{
+        display: grid;
+		grid-template-columns: auto auto;
+        border-radius: 2px;
+        box-sizing: border-box; margin-right: 5px; margin-left: -5px;
+    }
+    .container .box{padding: 5px; margin-right: 5px;}
+}
+
+@media (max-width:480px)
+{
+    .container{
+        display: grid;
+		grid-template-columns:  auto;
+        border-radius: 2px;
+        gap: 10px;
+        box-sizing: border-box; margin-right: 5px; margin-left: -10px;
+    }
+    .container .box{padding: 10px; border-radius: 0px;}
+}
