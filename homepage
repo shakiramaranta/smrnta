@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>smrnta.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1> </h1>
+    </div>
+      
+    <div class="topnav"> 
+        <d href="#">smrnta</d>
+        <nav>
+            <ul>
+                <li>
+                    <b href="#">
+                        <img src="ig_logo.png" alt="instagram" style="width:22px">
+                        </b>
+                        <b href="#"><img src="twt_logo.png" alt="twitter" style="width:25px"></b>
+                        <c href="#">
+                        <img src="mail_logo.png" alt="mail" style="width:25px">
+                        </c>
+                    <a href="#">About</a>
+                     <a href="#">Store</a>
+                     <a href="Work Page/portofolio.html">Work</a>
+                     <a href="Inspo Page/inspo.html">Inspiration</a>
+                     <a href="Blog Page/trial column.html">Blog</a>
+                     <a href="smrnta3rd.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </div>
+      
+    <div class="header">
+        <e> </e>
+    </div>
+
+
+
+    
+        <div class="h2"> 
+            <g href="#"><span>Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. Magni, quas deserunt quia quis veniam nesciunt maiores eum vel velit soluta?
+                <br>Soluta quia, optio aspernatur ullam in odio at veritatis error iure incidunt facere iusto, ex vel reprehenderit porro ut aut?
+                <br>Perspiciatis distinctio, illum quidem praesentium possimus voluptates assumenda expedita obcaecati quos. Earum ad tempore in voluptatibus iusto voluptatem possimus soluta.
+                <br>Reprehenderit numquam molestiae magnam quia. Tempora accusantium mollitia voluptates rerum libero provident alias voluptas, ullam, cupiditate, quae harum nesciunt iure?
+                <br>Et nemo laudantium enim dolorum, quo temporibus dicta, obcaecati asperiores perferendis id dignissimos voluptate consequuntur perspiciatis eaque minus cum aliquid.
+            </g>
+        </div>
+
+
+
+    <div class="container">
+        <div class="blog_box">
+                <img src="trial_img.jpeg" alt="blog">
+                <h href="#"><b>Lorem ipsum </b>dolor sit amet consectetur adipisicing elit. Molestias quaerat minima illo qui, dolorum neque quia voluptas suscipit ea omnis.</h>
+        </div>
+
+        <div class="blog_box">
+                <img src="trial_img2.jpeg" alt="blog2">
+                <h href="#"><b>Consequuntur</b> doloremque dolorem voluptatum voluptate quidem velit nulla suscipit recusandae, aliquam autem voluptatem omnis explicabo necessitatibus, pariatur commodi vel a.</h>
+        </div>
+
+        <div class="blog_box">
+                <img src="trial_img3.jpeg" alt="blog3">
+                <h href="#">Suscipit ipsum nobis reprehenderit tempora magnam unde culpa, sit itaque consequuntur molestiae non dolor illo vel impedit? Deleniti, eum soluta?</h>
+        </div>
+
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="trial_img.jpeg" alt="blog">
+            </div>
+            <div class="blog_txt">
+                <h href="#">Cumque doloribus id quod hic a praesentium quas dicta iste iure sint, quaerat explicabo at voluptatibus harum consequuntur obcaecati aliquam.</h>
+            </div>
+        </div>
+
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="trial_img.jpeg" alt="blog">
+            </div>
+            <div class="blog_txt">
+                <h href="#">Iusto distinctio laborum et possimus officia culpa, asperiores iure quas sunt odio vel debitis quis aperiam, cupiditate id dolores quisquam.</h>
+            </div>
+        </div>
+    </div>
+
+
+</body>
